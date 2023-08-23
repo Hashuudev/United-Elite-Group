@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?0046ebf691089aeb2b45627d29fd450d") format("truetype"),
+url("./flaticon.woff?0046ebf691089aeb2b45627d29fd450d") format("woff"),
+url("./flaticon.woff2?0046ebf691089aeb2b45627d29fd450d") format("woff2"),
+url("./flaticon.eot?0046ebf691089aeb2b45627d29fd450d#iefix") format("embedded-opentype"),
+url("./flaticon.svg?0046ebf691089aeb2b45627d29fd450d#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-geometrical-shape:before {
+    content: "\f101";
+}
+.flaticon-right-arrow:before {
+    content: "\f102";
+}
+.flaticon-strategy:before {
+    content: "\f103";
+}
+.flaticon-design:before {
+    content: "\f104";
+}
+.flaticon-source-code:before {
+    content: "\f105";
+}
+.flaticon-start-up:before {
+    content: "\f106";
+}
+.flaticon-creativity:before {
+    content: "\f107";
+}
+.flaticon-medal:before {
+    content: "\f108";
+}
+.flaticon-technical-support:before {
+    content: "\f109";
+}
+.flaticon-quotation:before {
+    content: "\f10a";
+}

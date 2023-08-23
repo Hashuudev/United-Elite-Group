@@ -1,0 +1,65 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?0046ebf691089aeb2b45627d29fd450d") format("truetype"),
+url("./flaticon.woff?0046ebf691089aeb2b45627d29fd450d") format("woff"),
+url("./flaticon.woff2?0046ebf691089aeb2b45627d29fd450d") format("woff2"),
+url("./flaticon.eot?0046ebf691089aeb2b45627d29fd450d#iefix") format("embedded-opentype"),
+url("./flaticon.svg?0046ebf691089aeb2b45627d29fd450d#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "geometrical-shape": "\f101",
+    "right-arrow": "\f102",
+    "strategy": "\f103",
+    "design": "\f104",
+    "source-code": "\f105",
+    "start-up": "\f106",
+    "creativity": "\f107",
+    "medal": "\f108",
+    "technical-support": "\f109",
+    "quotation": "\f10a",
+);
+
+.flaticon-geometrical-shape:before {
+    content: map-get($flaticon-map, "geometrical-shape");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-strategy:before {
+    content: map-get($flaticon-map, "strategy");
+}
+.flaticon-design:before {
+    content: map-get($flaticon-map, "design");
+}
+.flaticon-source-code:before {
+    content: map-get($flaticon-map, "source-code");
+}
+.flaticon-start-up:before {
+    content: map-get($flaticon-map, "start-up");
+}
+.flaticon-creativity:before {
+    content: map-get($flaticon-map, "creativity");
+}
+.flaticon-medal:before {
+    content: map-get($flaticon-map, "medal");
+}
+.flaticon-technical-support:before {
+    content: map-get($flaticon-map, "technical-support");
+}
+.flaticon-quotation:before {
+    content: map-get($flaticon-map, "quotation");
+}

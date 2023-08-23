@@ -11,10 +11,9 @@ United Elite Group has been a prominent player in the field of engineering since
 * Bootstrap
 * SCSS
 * PHP
-* Swiper Bundle
-* VenoBox
-* Wow & Way Point
-* Parallax
-* Slick
-* Animate CSS
-* Images Loaded
+* VenoBox ( Library )
+* Wow & Way Point ( Library )
+* Parallax ( Library )
+* Slick ( Library )
+* Animate CSS ( Library )
+* Images Loaded ( Library )
